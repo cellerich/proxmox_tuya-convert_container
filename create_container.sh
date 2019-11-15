@@ -88,7 +88,7 @@ if 'ids' not in vmids:
     print(100)
 else:
     last_vm = sorted(vmids['ids'].keys())[-1:][0]
-    print(int(last_vm)+1)
+    print(int(last_vm)+2)
 EOF
 )
 echo "Next ID is $CTID"
